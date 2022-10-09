@@ -1,0 +1,13 @@
+{
+  "name": "lokalise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lokalise": "rm -rf public && node lokalise"
+  },
+  "dependencies": {
+    "api": "^4.5.2",
+    "decompress": "^4.2.1"
+  }
+}
